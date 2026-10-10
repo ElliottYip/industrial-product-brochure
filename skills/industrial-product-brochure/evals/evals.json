@@ -1,0 +1,53 @@
+{
+  "skill_name": "industrial-product-brochure",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have a folder of photos for page 7 of an industrial machine catalog. Please prepare the page workflow and asset mapping first. Do not generate the final master yet.",
+      "expected_output": "Creates a page-specific workflow, locks only user-designated assets, writes or proposes a manifest, maps assets to model/name/application, and states that only previews are created before approval.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "This catalog page has three similar machines and the model names are easy to mix up. Make a preview for an A4 product brochure.",
+      "expected_output": "Uses deterministic identity mapping before design, avoids free redrawing of machines, chooses a multi-model or form-led archetype, records buyer-view logic and art direction, and keeps machines large enough for A4 inspection.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "The previous draft is pretty, but it does not help customers understand why they should inquire. Redesign it.",
+      "expected_output": "Classifies the problem as communication failure, rebuilds around recognition, product/model match, range boundary, trust proof, and inquiry hook, while avoiding guide-like copy.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "The final page is a back cover. No photo background. It should feel restrained and mature. Make a preview only.",
+      "expected_output": "Identifies the page as a corporate back cover, avoids product-page tabs, page numbers, model/spec cards, machine photos, and four-corner decoration, and builds a quiet logo/company/contact hierarchy without creating a master.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "The 24 approved page images are ready. Prepare files for a print shop.",
+      "expected_output": "Audits page count/order/ratio/DPI, creates or recommends a combined A4 PDF, original-image ZIP, print instructions, bleed note, and proofing advice.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "The page number update passed, but now I notice the white cover-up patch is obvious on pages with tinted backgrounds. Fix it and export again.",
+      "expected_output": "Classifies this as a production-layer repair, restores or works from the accepted page images, removes old marks with local background-aware repair instead of flat white blocks, preserves approved design layers, audits the changed pages, and regenerates the PDF after image changes.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Use an image model to make the next product brochure page, but do not overload the prompt. The page needs to look more commercially designed.",
+      "expected_output": "Creates a compact design brief before prompting, separates exact text/assets/specifications from generative visual instructions, uses image generation only where product truth is safe, and runs editor/aesthetic/sales gates before showing a preview.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "The page is clean, but the actual machine is only a tiny part of the A4 page because the photo has a big white canvas. Redo it.",
+      "expected_output": "Identifies a scale failure, measures the visible machine body rather than the image canvas, enlarges/rebalances or splits the page, and self-rejects any preview where catalog-subject machines remain thumbnails.",
+      "files": []
+    }
+  ]
+}

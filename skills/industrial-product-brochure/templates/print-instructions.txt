@@ -1,0 +1,27 @@
+Product brochure print instructions
+
+File:
+- [brochure_A4_print.pdf]
+
+Page setup:
+- Page count: [number]
+- Final size: A4 portrait, 210 x 297 mm
+- Page order: cover first, back cover last, inner pages in numeric order
+- Scaling: print as A4 full page; do not stretch, crop, reorder, or redesign
+
+Bleed:
+- [No bleed included / 3 mm bleed included / confirm with print shop]
+- If bleed is required but not included, request revised files before printing
+
+Color:
+- Source files may be RGB. Convert according to the print shop's device/profile.
+- Provide a physical proof before batch printing, especially for brand color, small text, and product photo detail.
+
+Included files:
+- Combined PDF:
+- Original page images ZIP:
+- Page audit:
+
+Notes:
+- Do not infer missing specifications or alter model names.
+- Contact the client before changing page order, scaling, bleed, or color conversion assumptions.
